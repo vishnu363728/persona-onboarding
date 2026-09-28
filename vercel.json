@@ -1,0 +1,12 @@
+{
+  "regions": [
+    "sfo1"
+  ],
+  "crons": [
+    {
+      "path": "/api/cleanup",
+      "schedule": "0 10 * * *"
+    }
+  ],
+  "framework": "nextjs"
+}
